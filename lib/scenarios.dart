@@ -13,8 +13,8 @@ class Scenarios extends StatelessWidget {
         child: Stack(children: [
         Image.asset('images/Scenarios.png'),
         Positioned(
-            top: 255,
-            left: 370,
+            top: MediaQuery.of(context).size.height / 2.4,
+            left: MediaQuery.of(context).size.width / 3.5,
             width: 220,
             height: 35,
             child: GestureDetector(
@@ -29,8 +29,8 @@ class Scenarios extends StatelessWidget {
               ),
             )),
             Positioned(
-            top: 305,
-            left: 370,
+             top: MediaQuery.of(context).size.height /2.0,
+            left: MediaQuery.of(context).size.width / 3.5,
             width: 220,
             height: 35,
             child: GestureDetector(
@@ -45,8 +45,8 @@ class Scenarios extends StatelessWidget {
               ),
             )),
             Positioned(
-            top: 350,
-            left: 370,
+            top: MediaQuery.of(context).size.height /1.75,
+            left: MediaQuery.of(context).size.width / 3.5,
             width: 220,
             height: 35,
             child: GestureDetector(
@@ -61,8 +61,8 @@ class Scenarios extends StatelessWidget {
               ),
             )),
             Positioned(
-            top: 395,
-            left: 370,
+            top: MediaQuery.of(context).size.height /1.55,
+            left: MediaQuery.of(context).size.width / 3.5,
             width: 220,
             height: 35,
             child: GestureDetector(

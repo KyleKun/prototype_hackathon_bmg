@@ -8,8 +8,8 @@ class ChatTwo extends StatelessWidget {
         child: Stack(children: [
         Image.asset('images/ChatTwo.png'),
         Positioned(
-            top: 280,
-            left: 20,
+            top: MediaQuery.of(context).size.height / 2.2,
+              left: MediaQuery.of(context).size.width / 25,
             width: 260,
             height: 50,
             child: GestureDetector(
